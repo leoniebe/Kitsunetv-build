@@ -1,11 +1,11 @@
-import React from 'react';
-import './App.css';
+import React from  "react";
+import  "./App.css";
+import HomeScreen from "./HomeScreen";
 
 function App() {
   return (
-    <div className="App">
-      <h1>spang</h1>
-      <Homescreen/>
+    <div className="app">
+      <HomeScreen />
     </div>
   );
 }
