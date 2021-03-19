@@ -6,8 +6,9 @@ import requests from "./Requests";
 import Row from "./Row";
 
 
-
 function HomeScreen() {
+
+     
      return (<div className="homeScreen">
           <Nav />
 
