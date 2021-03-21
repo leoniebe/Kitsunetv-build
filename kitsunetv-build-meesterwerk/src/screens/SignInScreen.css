@@ -1,0 +1,125 @@
+.signInScreen_contentLeftside
+{
+    height:98vh;
+}
+
+.signInScreen_Logo
+{
+    width: 4%;
+    position: fixed;
+    display: block;
+    z-index: 999;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.signInScreen_background
+{
+    height: 100%;
+    position: relative;
+    opacity: 0.5;
+    width:100%;
+}
+
+.signInScreen_contentLeftside
+{
+    width: 50%;
+    object-fit: contain;
+}
+
+.signInScreen_contentRightside
+{
+    width: 50%;
+    object-fit: contain;
+    
+}
+
+.signInScreen_form
+{
+    margin-left: 70px;
+}
+.signInScreen_Title
+{
+    font-size: 3.4em;
+    font-weight: 800;
+    margin-top: 40px;
+
+}
+
+.signInScreen_input
+{
+    width: 770px;
+    height: 80px;
+    background-color: transparent;
+    border: 1px solid #474747;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 6px;
+    
+}
+
+.signInScreen_input::placeholder
+{
+    color: white;
+}
+
+.signInScreen_input[type=email]
+{
+    color: white;
+    font-size: 1.2em;
+    padding-left: 20px;
+
+}
+
+.signInScreen_input[type=password]
+{
+    color: white;
+    padding-left: 20px;
+}
+
+p
+{
+    font-size: 25px;
+    Padding-top: 40px;
+}
+
+
+.signInScreen_Submit
+{
+    width: 770px;
+    height: 100px;
+    margin-top: 70px;
+    border-radius: 10px;
+    background-color: rgba(43, 55, 126, 0.8);
+    font-size: 1.7em;
+    font-weight: 700;
+    border: none;
+    color: white;
+}
+
+.signInScreen_Submit:hover
+{
+    background-color: rgba(35, 43, 89, 1);
+}
+
+.signInScreen_underline
+{
+    border-top: 1px solid #474747;
+    margin-top: 190px;
+    margin-bottom: 30px;
+}
+
+.signInScreen_grey
+{
+    margin-left: 35%;
+    color: #8F8F8F;
+    font-size: 1.2em;
+}
+
+.signInScreen_link
+{
+    margin-left: 3px;
+    color: #daa136;
+    font-size: 1.2em;
+    text-decoration: underline;
+}

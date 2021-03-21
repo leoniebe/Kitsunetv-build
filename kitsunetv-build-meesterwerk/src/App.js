@@ -6,7 +6,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import LoginScreen from "./screens/LoginScreen";
+import SignInScreen from "./screens/SignInScreen";
 
 function App() {
   const user = null;
@@ -15,7 +15,7 @@ function App() {
     <div className="app">
       <Router> 
         {!user ? (
-          <LoginScreen />
+          <SignInScreen />
         ) : (
         <Switch>
           <Route exact path="/">
