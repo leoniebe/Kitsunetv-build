@@ -3,10 +3,12 @@ import axios from "./axios.js";
 import "./Row.css";
 
 
+
 function Row({title, fetchUrl, isLargeRow = false}) {
     const [movies, setMovies] = useState([]);
 
     const base_url ="https://image.tmdb.org/t/p/original/";
+
 
     useEffect(() => {
         async function fetchData() 
@@ -26,6 +28,7 @@ function Row({title, fetchUrl, isLargeRow = false}) {
 
     }, [fetchUrl]);
 
+    
 
 
     return ( <div className="row">

@@ -27,7 +27,7 @@
     transition: transform 450ms;
 }
 
-.row-poster:hover
+.row_poster:hover
 {
     transform: scale(1.08);
     opacity: 1;
