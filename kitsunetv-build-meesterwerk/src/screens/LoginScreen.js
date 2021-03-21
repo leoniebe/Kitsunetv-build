@@ -5,23 +5,26 @@ import AboutKitsuneTV from "../AboutKitsuneTv";
 import SignInScreen from "./SignInScreen";
 
 function LoginScreen() {
-    const [signIn, setSignIn] = useState(false)
+    const [signIn, setSignIn] = useState(false);
   
     return <div className="loginScreen">
         {signIn ? (
             <SignInScreen />
 
         ) : (
+
             <>
             <div className="loginScreen_Background">
-            <button onclick={() => setSignIn(true)} className="loginScreen_button btn_register">Registreer</button>
-            <button className="loginScreen_button btn_login">Login</button>
+            <button onclick={() => setSignIn(true)} className="loginScreen_button btn_login">Login</button>
             <CarouselKitsune/>
             </div>
             <AboutKitsuneTV/>
             </>
-        )};
 
+        )};
+            
+\
+            
     </div>
     
 }
