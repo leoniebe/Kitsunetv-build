@@ -1,0 +1,55 @@
+.aboutKitsuneTv_About
+{
+    text-align: center;
+    font-size: 2.5rem;
+    z-index: 100;
+    color: white;
+    margin-top: 80px;
+
+}
+
+.aboutKitsuneTv_aboutDescription
+{
+    text-align: center;
+    font-size: 1rem;
+    z-index: 100;
+    color: #8F8F8F;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+.aboutKitsuneTv_icon
+{
+    width: 15%;
+    margin-top: 100px;
+}
+
+.aboutKitsuneTv_title
+{
+    font-size: 1.5rem;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.aboutKitsuneTv_description
+{
+    color: #8F8F8F;
+    font-size: 12px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 40px;
+}
+
+.aboutKitsuneTv_iconbox
+{
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+
+.row
+{
+    height: 500px;
+}
