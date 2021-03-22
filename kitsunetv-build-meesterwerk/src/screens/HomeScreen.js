@@ -9,7 +9,7 @@ import Row from "../Row";
 function HomeScreen() {
 
      
-     return (<div className="homeScreen">
+     return (<div className="homeScreen container-fluid">
           <Nav />
 
           <Banner />

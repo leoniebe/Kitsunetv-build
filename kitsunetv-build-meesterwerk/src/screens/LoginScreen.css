@@ -2,7 +2,14 @@
 {
     position: relative;
     height: 100%;
+  
     
+}
+
+.loginScreen_Background
+{
+    width: 100%;
+    margin: 0;
 }
 
 

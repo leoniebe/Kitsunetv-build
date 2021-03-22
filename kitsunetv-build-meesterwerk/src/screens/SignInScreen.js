@@ -34,6 +34,7 @@ function SignInScreen() {
         )
         .then((authUser) => {
             console.log(authUser);
+            window.location = "/";
         })
         .catch((error) => alert (error.message)); 
     }
