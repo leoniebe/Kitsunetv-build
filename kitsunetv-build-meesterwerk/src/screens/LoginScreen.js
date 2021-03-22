@@ -3,29 +3,31 @@ import CarouselKitsune from "../CarouselKitsune";
 import "./LoginScreen.css";
 import AboutKitsuneTV from "../AboutKitsuneTv";
 import SignInScreen from "./SignInScreen";
-import { useHistory } from "react-router-dom";
+import WatchEverywhere from "../WatchEverywhere";
+import KitsuneTVQuestions from "../KitsuneTVQuestions";
 
 function LoginScreen() {
-  const [signIn, setSignIn] = useState(false);
-  const history = useHistory();
+  const [signIn] = useState(false);
 
   return (
-    <div className="loginScreen">
+    <div className="loginScreen container-fluid">
       {signIn ? (
         <SignInScreen />
       ) : (
         <>
           <div className="loginScreen_Background">
             <a
-            //   onclick={() => history.push('/signIn')}
               href="/signIn"
               className="loginScreen_button btn_login"
             >
-              Loginss
+              Login
             </a>
             <CarouselKitsune />
           </div>
           <AboutKitsuneTV />
+          <WatchEverywhere />
+          <KitsuneTVQuestions />
+          
         </>
       )}
       ;

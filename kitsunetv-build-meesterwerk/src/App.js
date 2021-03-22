@@ -25,17 +25,18 @@ function App() {
         //logged in
       } else {
         //logout
-        dispatch(logout);
+        dispatch(logout());
       }
     });
 
     return unsubscribe;
-  }, [""]);
+  }, [dispatch]);
 
   return (
     <div className="app">
       <Router>
         {!user ? (
+          
           <Switch>
             <Route exact path="/">
               <LoginScreen />

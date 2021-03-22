@@ -2,6 +2,7 @@
 {
     position: relative;
     height: 100%;
+    max-width: 99%;
   
     
 }
@@ -12,8 +13,15 @@
     margin: 0;
 }
 
+a.loginScreen_button
+{
+    color: white!important;
+}
 
-
+a.loginScreen_button:hover
+{
+    color: black!important;
+}
 .loginScreen_button, .btn_login
 {
     position: fixed;

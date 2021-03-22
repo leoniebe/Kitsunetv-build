@@ -1,6 +1,13 @@
 .signInScreen_contentLeftside
 {
-    height:98vh;
+    height:100vh;
+    margin-left: 0;
+}
+
+.signInScreen_Container
+{
+    width: 99%;
+    padding-left: 0;
 }
 
 .signInScreen_Logo
@@ -19,6 +26,8 @@
     position: relative;
     opacity: 0.5;
     width:100%;
+    margin-left: 0!important;
+    padding-left: 0!important;
 }
 
 .signInScreen_contentLeftside

@@ -1,0 +1,38 @@
+.watchEverywhere
+{
+    width: 100%;
+}
+
+.watchEverywhere_RowContainer
+{
+    border-top: 1px solid #474747;
+    height: auto;
+}
+
+.watchEverywhere_iconbox
+{
+    width: 50%;
+}
+
+.watchEverywhere_icon
+{
+    width: 70%;
+    margin-top: 50px;
+}
+
+.watchEverywhere_title
+{
+    font-size: 2em;
+    margin-top: 100px;
+    margin-bottom: 5px;
+
+}
+
+.watchEverywhere_description
+{
+    font-size: 15px;
+    margin-top: 0;
+    margin-right: 30%;
+    color: #8f8f8f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

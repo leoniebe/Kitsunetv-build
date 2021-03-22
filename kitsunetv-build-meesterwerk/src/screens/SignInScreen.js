@@ -43,8 +43,8 @@ function SignInScreen() {
             <div className="signInScreen_Container">
                 <Row>
                     <Col className="signInScreen_contentLeftside">
-                    <img className="signInScreen_Logo" src="./img/logo/Asset2Yellow.svg" alt=""></img>
-                    <img className="signInScreen_background" src="./img/Login/LoginScreen.jpg" alt=""></img>
+                    <img className="signInScreen_Logo" src="./Img/logo/Asset2Yellow.svg" alt=""></img>
+                    <img className="signInScreen_background" src="./Img/Login/RegisterScreen.jpg" alt=""></img>
                     </Col>
                     <Col className="signInScreen_contentRightside">
                         <form className="signInScreen_form">

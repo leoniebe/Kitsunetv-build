@@ -1,0 +1,55 @@
+.kitsuneTvQuestions_container
+{
+    height: auto;
+    border-top: 1px solid #474747;
+    text-align: center;
+}
+
+.kitsuneTvQuestions_container > h1 
+{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-weight: 800;
+}
+
+.kitsuneTvQuestions_container > .accordion
+{
+    width: 900px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.accordion>.card>.card-header
+{
+    border-radius: 5px;
+}
+
+.card-header
+{
+    background-color: #131313!important;
+    color: white;
+    border: none;
+    height: 70px;
+    padding: 1.3rem 1.25rem;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.card-body
+{
+    background-color: #1A1919!important;
+    color: #8F8F8F;
+}
+
+.card
+{
+    border: none!important;
+}
+
+.Accordion.Toggle
+{
+    background-color: #131313;
+}
