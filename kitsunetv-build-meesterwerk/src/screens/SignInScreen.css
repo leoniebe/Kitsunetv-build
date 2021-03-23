@@ -34,6 +34,7 @@
 {
     width: 50%;
     object-fit: contain;
+    padding: 0 0px!important;
 }
 
 .signInScreen_contentRightside
@@ -133,3 +134,7 @@ p
     text-decoration: underline;
 }
 
+.row
+{
+    margin-left: 0!important;
+}

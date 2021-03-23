@@ -41,7 +41,7 @@ function SignInScreen() {
     return (
         <div className='signInScreen'>
             <div className="signInScreen_Container">
-                <Row>
+                <Row class="container-fluid">
                     <Col className="signInScreen_contentLeftside">
                     <img className="signInScreen_Logo" src="./Img/logo/Asset2Yellow.svg" alt=""></img>
                     <img className="signInScreen_background" src="./Img/Login/RegisterScreen.jpg" alt=""></img>

@@ -16,10 +16,10 @@ function ProfileScreen() {
             <div className="profileScreen_details">
                 <h2>{user.email}</h2>
                 <div className="profileScreen_Donations">
-                    <button onClick={() => auth.signOut()} className="profileScreen_signOut">Uitloggen</button>
+                    <a href="/" onClick={() => auth.signOut()} className="profileScreen_signOut">Uitloggen</a>
                 </div>
             </div>
-        </div>
+        </div> 
 
         </div>
     </div>
